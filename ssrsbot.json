@@ -1,0 +1,26 @@
+{
+  "description": "个人笔记网站",
+  "subdomain": "ssrsbot",
+  "domain": "ciao.su",
+  "owner": {
+    "name": "ssrszdx",
+    "github": "ssrszdx",
+    "email": "dxpkuer@gmail.com"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "@",
+      "content": "armfazh.ns.cloudflare.com",
+      "ttl": 3600,
+      "proxied": false
+    },
+    {
+      "type": "CNAME",
+      "name": "@",
+      "content": "nova.ns.cloudflare.com",
+      "ttl": 3600,
+      "proxied": false
+    }
+  ]
+}
